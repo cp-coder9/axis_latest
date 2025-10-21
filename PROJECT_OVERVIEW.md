@@ -55,7 +55,7 @@ The Admin Dashboard provides full system oversight and management capabilities.
 - System-wide statistics and KPIs
 - User activity monitoring
 - Project status overview
-- Revenue and budget tracking
+- Revenue and budget tracking (in ZAR)
 - Quick action cards for common tasks
 
 **Lifecycle Management (`/admin/lifecycle`)**
@@ -76,7 +76,7 @@ The Admin Dashboard provides full system oversight and management capabilities.
 
 - All projects management (active and archived)
 - Project creation and assignment
-- Budget tracking and cost analysis
+- Budget tracking and cost analysis (in ZAR)
 - Team assignment and resource management
 
 **Team Management (`/admin/team`)**
@@ -313,7 +313,7 @@ The Client Dashboard provides project oversight, communication, and document acc
 - Built-in timer with start/stop/pause functionality
 - Automatic time logging to Firestore
 - Real-time synchronization across devices
-- Weekly/monthly summaries and earnings calculations
+- Weekly/monthly summaries and earnings calculations (in ZAR)
 - Manual time entry capabilities
 
 **Project Management**
@@ -344,7 +344,7 @@ The Client Dashboard provides project oversight, communication, and document acc
 
 - Comprehensive performance metrics
 - User activity tracking
-- Revenue and earnings analytics
+- Revenue and earnings analytics (in ZAR)
 - Custom date range filtering
 - Export capabilities (PDF, CSV)
 

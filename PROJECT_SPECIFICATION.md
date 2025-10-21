@@ -298,7 +298,7 @@ interface User {
   email: string;
   role: UserRole; // ADMIN | FREELANCER | CLIENT
   title: string;
-  hourlyRate: number;
+  hourlyRate: number; // in ZAR
   phone: string;
   company: string;
   avatarUrl: string;
@@ -321,11 +321,11 @@ interface Project {
   assignedTeamIds: string[];
   status: ProjectStatus;
   projectNumber: string;
-  budget?: number;
+  budget?: number; // in ZAR
   deadline?: Timestamp;
   jobCards: JobCard[];
   totalTimeSpentMinutes?: number;
-  totalEarnings?: number;
+  totalEarnings?: number; // in ZAR
 }
 ```
 
@@ -356,8 +356,8 @@ interface TimeLog {
   projectId: string;
   jobCardId: string;
   loggedById: string;
-  hourlyRate?: number;
-  earnings?: number;
+  hourlyRate?: number; // in ZAR
+  earnings?: number; // in ZAR
 }
 ```
 
@@ -506,7 +506,7 @@ interface RolePermissions {
 
 - User management and role assignment
 - System-wide analytics and reporting
-- Project oversight and budget tracking
+- Project oversight and budget tracking (in ZAR)
 - Activity monitoring across all projects
 
 #### Freelancer Dashboard
@@ -521,7 +521,7 @@ interface RolePermissions {
 - Active project overview and progress tracking
 - Secure document access and downloads
 - Direct messaging with project teams
-- Budget and timeline monitoring
+- Budget and timeline monitoring (in ZAR)
 
 ### 2. Time Tracking System
 
@@ -529,7 +529,7 @@ interface RolePermissions {
 - Automatic time logging to Firestore
 - Real-time synchronization across devices
 - Weekly/monthly time summaries
-- Hourly rate calculations and earnings tracking
+- Hourly rate calculations and earnings tracking (in ZAR)
 
 ### 3. Project Management
 
@@ -559,7 +559,7 @@ interface RolePermissions {
 
 - Project performance metrics
 - User activity tracking
-- Revenue and earnings analytics
+- Revenue and earnings analytics (in ZAR)
 - Custom date range filtering
 - Export capabilities (PDF, CSV)
 
