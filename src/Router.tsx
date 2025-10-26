@@ -52,7 +52,7 @@ const Router = () => {
   return (
     <Routes>
       <Route path="/" element={<LoginPage />} />
-      <Route path="/admin" element={<AdminAppLayout><div /></AdminAppLayout>}>
+      <Route path="/admin" element={<AdminAppLayout />}>
         <Route path="dashboard" element={<AdminDashboardPage />} />
         <Route path="lifecycle" element={<LifecyclePage />} />
         <Route path="analytics" element={<AnalyticsPage />} />
@@ -66,7 +66,7 @@ const Router = () => {
         <Route path="search" element={<SearchPage />} />
       </Route>
 
-      <Route path="/freelancer" element={<FreelancerAppLayout><div /></FreelancerAppLayout>}>
+      <Route path="/freelancer" element={<FreelancerAppLayout />}>
         <Route path="dashboard" element={<FreelancerDashboardPage />} />
         <Route path="timer/active" element={<FreelancerTimerActivePage />} />
         <Route path="timer/logs" element={<FreelancerTimeLogsPage />} />
@@ -81,7 +81,7 @@ const Router = () => {
         <Route path="profile" element={<FreelancerProfilePage />} />
       </Route>
 
-      <Route path="/client" element={<ClientAppLayout><div /></ClientAppLayout>}>
+      <Route path="/client" element={<ClientAppLayout />}>
         <Route path="dashboard" element={<ClientDashboardPage />} />
         <Route path="dashboard/activity" element={<ClientActivityPage />} />
         <Route path="projects/active" element={<ClientActiveProjectsPage />} />
