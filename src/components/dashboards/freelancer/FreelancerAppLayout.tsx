@@ -1,6 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import FreelancerAppSidebar from './app-sidebar';
+import { ThemeSwitcher } from '@/components/theme/ThemeSwitcher';
 
 const FreelancerAppLayout: React.FC = () => {
   return (

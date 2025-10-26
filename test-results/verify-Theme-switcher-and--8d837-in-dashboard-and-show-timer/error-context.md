@@ -1,0 +1,53 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - complementary [ref=e5]:
+    - generic [ref=e6]:
+      - heading "Freelancer Panel" [level=2] [ref=e7]
+      - button [ref=e8] [cursor=pointer]:
+        - img [ref=e9]
+    - navigation [ref=e11]:
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link "Dashboard" [ref=e14] [cursor=pointer]:
+            - /url: /freelancer/dashboard
+        - listitem [ref=e15]:
+          - link "Timer" [ref=e16] [cursor=pointer]:
+            - /url: /freelancer/timer/active
+        - listitem [ref=e17]:
+          - link "Time Logs" [ref=e18] [cursor=pointer]:
+            - /url: /freelancer/timer/logs
+        - listitem [ref=e19]:
+          - link "Manual Entry" [ref=e20] [cursor=pointer]:
+            - /url: /freelancer/timer/manual
+        - listitem [ref=e21]:
+          - link "Assigned Projects" [ref=e22] [cursor=pointer]:
+            - /url: /freelancer/projects/assigned
+        - listitem [ref=e23]:
+          - link "Available Projects" [ref=e24] [cursor=pointer]:
+            - /url: /freelancer/projects/available
+        - listitem [ref=e25]:
+          - link "Earnings" [ref=e26] [cursor=pointer]:
+            - /url: /freelancer/earnings/overview
+        - listitem [ref=e27]:
+          - link "Reports" [ref=e28] [cursor=pointer]:
+            - /url: /freelancer/earnings/reports
+        - listitem [ref=e29]:
+          - link "Invoices" [ref=e30] [cursor=pointer]:
+            - /url: /freelancer/earnings/invoices
+        - listitem [ref=e31]:
+          - link "Settings" [ref=e32] [cursor=pointer]:
+            - /url: /freelancer/settings
+        - listitem [ref=e33]:
+          - link "Notifications" [ref=e34] [cursor=pointer]:
+            - /url: /freelancer/notifications
+        - listitem [ref=e35]:
+          - link "Profile" [ref=e36] [cursor=pointer]:
+            - /url: /freelancer/profile
+  - main [ref=e37]:
+    - button "Toggle theme" [ref=e39] [cursor=pointer]:
+      - img [ref=e40]
+      - img
+      - generic [ref=e46]: Toggle theme
+```

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import ClientAppSidebar from './app-sidebar';
+import { ThemeSwitcher } from '@/components/theme/ThemeSwitcher';
 
 const ClientAppLayout: React.FC = () => {
   return (
