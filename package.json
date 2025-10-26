@@ -40,13 +40,14 @@
     "zod": "^4.1.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.56.1",
     "@types/node": "^20.10.0",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
     "@vitejs/plugin-react": "^4.1.1",
     "autoprefixer": "10.4.16",
     "eslint": "^8.53.0",
-    "playwright": "^1.43.1",
+    "playwright": "^1.56.1",
     "postcss": "8.4.32",
     "typescript-eslint": "^8.40.0"
   }
