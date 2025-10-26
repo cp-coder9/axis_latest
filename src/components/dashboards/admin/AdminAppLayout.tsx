@@ -1,12 +1,13 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 import AdminAppSidebar from './app-sidebar';
 
-const AdminAppLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+const AdminAppLayout: React.FC = () => {
   return (
     <div className="flex min-h-screen">
       <AdminAppSidebar />
       <main className="flex-1 p-8">
-        {children}
+        <Outlet />
       </main>
     </div>
   );
