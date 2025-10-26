@@ -38,9 +38,9 @@ const defaultPresets: Record<UserRole, ThemePreset[]> = {
       name: 'Professional', 
       theme: 'light',
       colors: {
-        primary: '#1e40af',
-        secondary: '#3b82f6',
-        accent: '#60a5fa'
+        primary: '#14b8a6',
+        secondary: '#5eead4',
+        accent: '#ffffff'
       }
     }
   ],
@@ -51,11 +51,11 @@ const defaultPresets: Record<UserRole, ThemePreset[]> = {
     { 
       id: 'freelancer-custom', 
       name: 'Creative', 
-      theme: 'dark',
+      theme: 'light',
       colors: {
-        primary: '#7c3aed',
-        secondary: '#a78bfa',
-        accent: '#c4b5fd'
+        primary: '#14b8a6',
+        secondary: '#5eead4',
+        accent: '#ffffff'
       }
     }
   ],
@@ -68,9 +68,9 @@ const defaultPresets: Record<UserRole, ThemePreset[]> = {
       name: 'Elegant', 
       theme: 'light',
       colors: {
-        primary: '#059669',
-        secondary: '#10b981',
-        accent: '#34d399'
+        primary: '#14b8a6',
+        secondary: '#5eead4',
+        accent: '#ffffff'
       }
     }
   ]
