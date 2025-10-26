@@ -1,12 +1,13 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 import ClientAppSidebar from './app-sidebar';
 
-const ClientAppLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+const ClientAppLayout: React.FC = () => {
   return (
     <div className="flex min-h-screen">
       <ClientAppSidebar />
       <main className="flex-1 p-8">
-        {children}
+        <Outlet />
       </main>
     </div>
   );
