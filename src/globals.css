@@ -71,6 +71,8 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-brand-background text-brand-text;
+    background-image: linear-gradient(to right, theme('colors.brand.grid') 1px, transparent 1px), linear-gradient(to bottom, theme('colors.brand.grid') 1px, transparent 1px);
+    background-size: 2rem 2rem;
   }
 }
