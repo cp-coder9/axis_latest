@@ -10,7 +10,7 @@ const ThemeCustomizer: React.FC = () => {
       <div>
         <h3 className="text-lg font-semibold mb-4">Theme Preferences</h3>
         <p className="text-sm text-muted-foreground mb-4">
-          Choose your preferred theme for the {userRole} dashboard. Your selection will be saved automatically.
+          Choose your preferred theme for the {(userRole ?? "user")} dashboard. Your selection will be saved automatically.
         </p>
       </div>
 
